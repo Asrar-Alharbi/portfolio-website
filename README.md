@@ -53,7 +53,7 @@ This portfolio was created to provide a simple and professional online profile. 
 
 Computer Engineering Student
 
-- GitHub: (https://github.com/Asrar-Alharbi)
-- LinkedIn: (https://www.linkedin.com/in/asrar-alharbi-97217a402/)
+- GitHub: https://github.com/Asrar-Alharbi
+- LinkedIn: https://www.linkedin.com/in/asrar-alharbi-97217a402/
 - Email: af.alharbi456@email.com
 
