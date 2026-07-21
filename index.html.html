@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            max-width: 500px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #2a9d8f;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            color: #2b2d42;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            color: #2a9d8f;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .bio {
+            font-size: 0.95rem;
+            color: #6c757d;
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            text-align: left;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            color: #2b2d42;
+        }
+
+        ul {
+            list-style: none;
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #2a9d8f;
+            font-weight: bold;
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #2b2d42;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            transition: background-color 0.2s ease;
+        }
+
+        .links a:hover {
+            background-color: #2a9d8f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Profile Picture -->
+<img src="https://api.dicebear.com/7.x/bottts-neutral/svg?seed=avatar&backgroundColor=b6e3f4" alt="Profile Picture" class="avatar">        
+        <!-- Name & Title -->
+        <h1>Asrar Alharbi</h1>
+        <p class="title">Computer Engineering Student</p>
+        
+        <!-- Short Bio -->
+        <p class="bio">
+            A passionate engineering student interested in software development, embedded systems, and building smart hardware solutions.
+        </p>
+
+        <!-- Skills & Interests -->
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>Python & C++ Programming</li>
+            <li>Embedded Systems & Microcontrollers</li>
+            <li>Software & GUI Development</li>
+        </ul>
+
+        <!-- Links & Contact -->
+        <h2 class="section-title">Connect</h2>
+        <div class="links">
+            <a href="https://github.com/Asrar-Alharbi" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/asrar-alharbi-97217a402/" target="_blank">LinkedIn</a>
+            <a href="af.alharbi456@gmail.com">Email</a>
+        </div>
+    </div>
+
+</body>
+</html>
