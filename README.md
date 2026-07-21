@@ -28,23 +28,6 @@ This portfolio was created to provide a simple and professional online profile. 
 
 ---
 
-## 🚀 Getting Started
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/YourUsername/portfolio-website.git
-```
-
-2. Navigate to the project folder
-
-```bash
-cd portfolio-website
-```
-
-3. Open `index.html` in your browser.
-
----
 
 ## 📸 Preview
 
@@ -74,8 +57,3 @@ Computer Engineering Student
 - LinkedIn: (https://www.linkedin.com/in/asrar-alharbi-97217a402/)
 - Email: af.alharbi456@email.com
 
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
